@@ -1,0 +1,14 @@
+[2026-09-16T04:21:34Z] === ENRICH ITERATION 1 START | repo=gabriel-vasile/mimetype sha=8822588d ===
+[2026-09-16T04:21:34Z] [iter=1] PHASE START: enrich repo=gabriel-vasile/mimetype sha=8822588d runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/8822588d-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/8822588d35ff221d0a72627f27a94ba58f661d89.nq.gz
+[2026-09-16T04:21:34Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-09-16T04:21:40Z] [iter=1] AST store loaded triples=343210 load_secs=6 mem_mb=576 MB
+[2026-09-16T04:21:40Z] [iter=1] Step 2: Finding LSP targets mem_mb=576 MB
+[2026-09-16T04:21:41Z] [iter=1] LSP targets found call_sites=1685 imports=0 extends=0 implements=0 secs=0
+[2026-09-16T04:21:41Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=576 MB
+[2026-09-16T04:21:42Z] [iter=1] Position index built positions=22198 nodes_with_types=25269 secs=1 mem_mb=576 MB
+[2026-09-16T04:21:42Z] [iter=1] Step 3: Starting LSP resolution mem_mb=576 MB already_completed_types=[] already_completed_files=0
+[2026-09-16T04:21:42Z] [iter=1] Resolving target type target_type=call_site count=1685
+[2026-09-16T04:21:42Z] [iter=1] Target type resolved target_type=call_site resolved=0 errors=1685 secs=1 mem_mb=576 MB
+[2026-09-16T04:21:42Z] [iter=1] Step 5: Writing final enrichment file triples=0
+[2026-09-16T04:21:42Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/8822588d35ff221d0a72627f27a94ba58f661d89.nq.gz size_kb=0
+[2026-09-16T04:21:42Z] [iter=1] PHASE END: enrich elapsed_s=8 elapsed_min=0.1 total_triples=0
